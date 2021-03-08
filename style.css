@@ -1,0 +1,428 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+body {font: 14px/1.9 'Noto Sans JP', Arial, Verdana, æ¸¸ã‚´ã‚·ãƒƒã‚¯, YuGothic,'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ ProN W3', 'Hiragino Kaku Gothic ProN', ãƒ¡ã‚¤ãƒªã‚ª, Meiryo,sans-serif;
+    font-weight: 300;
+    -webkit-text-size-adjust: 100%;
+    overflow-x: hidden;
+    color: #000;
+    background: #fff;
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb(255, 255, 255);
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: default;
+}
+
+li {
+  list-style: none;
+}
+
+h2 {
+  font-family: 'Josefin Sans', 'Noto Sans JP',serif;
+}
+
+header {
+  height:67px;
+  z-index: 500;
+  position: fixed;
+  top: 0;
+  background: rgba(255,255,255,.8);
+  border-bottom: 1px solid #d1d1d1;
+}
+
+.nav-item {
+  display: flex;
+  padding:21px 35px 0px 1013px;
+}
+
+.nav-item a {
+  display: block;
+  font-size:14px;
+  color:#000;
+}
+
+.nav-item a:hover {
+  border-bottom: 1.5px solid #000;
+}
+
+.nav-item li {
+  padding-right: 24px;
+}
+
+.main-wrapper {
+  height: 3580px;
+  z-index: 400;
+}
+
+.main {
+  position: relative;
+}
+
+.img {
+  display: block;
+  height: 568px;
+  width: 1280px;
+  margin-left: 103px;
+
+}
+
+.img-text {
+  position: absolute;
+  top:39%;
+  left:39%;
+}
+
+.img-text  h1 {
+  font-size: 45px;
+  font-family: 'Monotype Corsiva','Pacifico', cursive;
+  color: #fff;
+  padding-left: 25px;
+}
+
+.img-text p {
+  font-size: 20px;
+  font-family: 'Josefin Sans', 'Noto Sans JP',serif;
+  color: #fff;
+  padding-left: 25px;
+}
+
+.vision {
+  height: 290px;
+  text-align: center;
+}
+
+.vision h2 {
+  font-size: 22px;
+  padding: 70px 0px 20px;
+}
+
+.vision p {
+  width: 60%;
+  padding-left: 297px;
+  font-size: 14px;
+}
+
+.message {
+  height: 492px;
+  display: flex;
+}
+
+.photo1 {
+  width: 50%;
+}
+
+.photo1 img {
+  display: block;
+  width: 100%;
+  height: 80%;
+}
+
+.message-text {
+  width: 50%;
+  text-align: center;
+  background-color: #f6f6f6;
+}
+
+.message-text h2 {
+  font-size: 22px;
+  padding: 170px 0px 30px 0px;
+}
+
+.message-text p {
+  width: 93%;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.message2 {
+  height: 492px;
+  display: flex;
+}
+
+.message-text2 {
+  width: 50%;
+  text-align: center;
+  background-color: #f6f6f6;
+}
+
+.message-text2 h2 {
+  font-size: 22px;
+  padding: 170px 0px 30px 0px;
+}
+
+.message-text2 p {
+  width: 93%;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.photo2 {
+  width: 50%;
+}
+
+.photo2 img {
+  display: block;
+  width: 100%;
+  height: 80%;
+}
+
+.side {
+  height: 660px;
+  display: flex;
+}
+
+.side-item {
+  width: 20%;
+  padding-top: 77px;
+  padding-right: 40px;
+}
+
+.side-item h2 {
+  text-align: center;
+  font-size: 22px;
+  padding-bottom: 20px;
+}
+
+.side-img {
+  padding-left: 5px;
+}
+
+.side-img img {
+  width: 98%;
+  display: block;
+  padding-bottom: 25px;
+}
+
+.left {
+  padding-left: 245px;
+}
+
+.last {
+  height: 420px;
+  position: relative;
+}
+
+.last-img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-image: url(images/bgSec04.jpg);
+  background-attachment: fixed;
+  background-position: 100% 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.flex {
+  display: flex;
+  width: 60%;
+  position: absolute;
+  top:100px;
+  left: 257px;
+  color: #fff;
+}
+
+.story {
+  padding-right: 68px;
+}
+
+.story h2 {
+  font-size: 22px;
+  text-align: center;
+  padding-bottom: 17px;
+}
+
+.success h2 {
+  font-size: 22px;
+  text-align: center;
+  padding-bottom: 17px;
+}
+
+.footer-nav {
+  height: 645px;
+  display: flex;
+}
+
+.left-nav {
+  width: 21%;
+  margin: 140px 0px 0px 312px;
+  display: flex;
+}
+
+.left-nav-item1 {
+  width:28%;
+  padding-right: 40px;
+}
+
+.left-ul1 {
+  text-align: right;
+}
+
+.left-ul1 li {
+  padding-bottom: 18px;
+}
+
+.left-nav-item2 {
+  width: 72%;
+}
+
+.left-ul2 {
+  text-align: left;
+}
+
+.left-ul2 li {
+  padding-bottom: 18px;
+}
+
+.left-ul2 a {
+  display: inline-block;
+  color:#0066ff;
+}
+
+.left-ul2 a:hover {
+  text-decoration: underline;
+  color: #0066ff;
+}
+
+.map {
+  width:28%;
+}
+
+iframe {
+  width:100%;
+  height: 310px;
+  padding: 142px 0px 0px 120px;
+}
+
+footer {
+  height: 87px;
+}
+
+footer p {
+  padding-left: 530px;
+  font-size: 12px;
+}
+
+footer p a {
+  color:  #0066ff;
+  padding-left: 3px;
+}
+
+footer p a:hover {
+  color:  #0066ff;
+  text-decoration: underline;
+}
